@@ -1,13 +1,13 @@
 #!/bin/bash
-# Connor's general environment set up script.
+# General environment set up script.
 
 # Install things
-#sudo yum -y update
-#sudo yum -y install epel-release
-#sudo yum -y install vim
-#sudo yum -y install git
-#sudo yum -y install tmux
-#sudo yum -y install pip
+sudo yum -y update
+sudo yum -y install epel-release
+sudo yum -y install vim
+sudo yum -y install git
+sudo yum -y install tmux
+sudo yum -y install pip
 
 # Install pip
 curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
